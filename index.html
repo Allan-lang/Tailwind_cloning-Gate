@@ -6,7 +6,7 @@
     <title>Tailwind Gate</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="overflow-x-hidden">
     <div class="w-full h-full">
         <div class="bg-blue-100 h-[50px] flex ">
                 <img src="LinkedIn.svg " alt="LinkedIn Logo" class="text-red-500 ml-[50px] mt-[15px] h-[15px] w-[15px]">
@@ -54,9 +54,9 @@
             <p class="text-white uppercase">News & Events</p>
         </div>
         <div class="relative w-full h-[570px] mt-[-50px] z-10">
-            <img src="bg abakuze.jpeg" class="absolute inset-0 w-full h-full object-cover">
+            <img src="bg-abakuze.jpeg" class="absolute inset-0 w-full h-full object-cover">
             <div class="absolute inset-0 bg-gradient-to-r from-white/100 via-white/95 to-transparent"></div>
-            <div class="absolute inset-0 bg-black/10 flex items-center">
+            <div class="absolute inset-0 bg-black/10 flex items-center group-hover:-mt-[5px]">
                 <h1 class="text-blue-900 ml-[50px] mt-[-250px] text-2xl "> <span class="text-4xl font-bold text-[30px] text-yellow-400">Member First</span>, data-driven, evidence-<br>based and high performing organization.</h1>
                 <h2 class="font-bold ml-[-430px] mt-[-150px] text-blue-900">MEMBERS FIRST</h2>
                 <button class="bg-blue-900 text-white px-4 py-2 rounded mt-[10px] ml-[-127px] hover:bg-white hover:text-blue-900 border-blue-900 border-[2px]">Learn More</button>
@@ -64,7 +64,7 @@
             </div>
         </div>
         <div class="justify-center items-center flex mt-[-150px] z-20 relative">
-            <div class="w-[220px] h-[200px] border-[1px] flex flex-col mt-[50px] ml-[50px] bg-white shadow-lg">
+            <div class="w-[220px] h-[200px] border-[1px] flex flex-col mt-[50px] ml-[50px] bg-white shadow-lg group-hover:bg-blue-400">
                 <img src="">
                 <p class="mt-[90px] ml-[10px] font-bold text-blue-900">Member First</p>
                 <p class="ml-[10px]"><span class="font-bold  text-blue-900">13 Million</span> of Rwandans are covered by RSSB services</p>
@@ -125,7 +125,7 @@
             <div class="group w-[350px] h-[250px] bg-white  border-[1px] hover:bg-[url('bg-abakuze.jpeg')] bg-cover">
                 <img src="public (3).svg" alt="Health Scheme" class="w-[60px] ml-[150px] h-[60px] mt-[30px] object-cover group-hover:invert">
                 <p class="text-blue-900 font-bold text-center mt-[5px] text-[12px] uppercase group-hover:text-yellow-400">ejo heza</p>
-                <p class="text-gray-500 text-center  text-[12px] text-white">Start Early And Reap The Rewards</p>
+                <p class="text-gray-500 text-center  text-[12px] group-hover:text-white">Start Early And Reap The Rewards</p>
             </div>
             <div class="group w-[350px] h-[250px] bg-white  border-[1px] hover:bg-[url('bg-abakuze.jpeg')] bg-cover ">
                 <img src="public (4).svg" alt="Health Scheme" class="w-[60px] ml-[150px] h-[60px] mt-[30px] object-cover group-hover:invert">
@@ -133,10 +133,82 @@
                 <p class="text-gray-500 text-center  text-[12px]">Enjoy your maternity leave with your full salary</p>
             </div>
         </div>
-        <div class="bg-gray-100 h-[850px]">
-            <p>Never miss your contributions</p>
-            <h3><span>Imisanzu</span> revolutionizes the way you manage your social<br> security contributions. Access your information anytime,<br> anywhere with ease and security. Enjoy convenience and<br> transparency. Take control of your future and join Imisanzu<br> today.</h3>
-            <button class="bg-blue-900 text-white px-[25px] py-2 rounded mt-[10px] ml-[50px] hover:bg-white hover:text-blue-900 border-blue-900 border-[2px] text-[12px] ">Get Started</button>
+        <div class="bg-gray-100 h-[700px] mt-[25px]">
+            <p class="font-bold text-4xl text-blue-900 ml-[45px] py-[180px]">Never miss your<br> contributions</p>
+            <h3 class="ml-[45px] mt-[-140px] text-[18px] text-blue-900"><span class="font-bold text-yellow-400 ">Imisanzu</span> revolutionizes the way you manage your social<br> security contributions. Access your information anytime,<br> anywhere with ease and security. Enjoy convenience and<br> transparency. Take control of your future and join Imisanzu<br> today.</h3>
+            <button class="bg-blue-900 text-white px-[40px] py-[15px] rounded mt-[50px] ml-[45px] hover:bg-white hover:text-blue-900 border-blue-900 border-[2px] text-[16px] font-bold ">Get Started</button>
+            <img src="public (1).jpeg" alt="Imisanzu Image" class="w-[950px] h-[550px] ml-[690px] mt-[-450px] border-[1px] border-gray-300 rounded-lg shadow-lg">
+        </div>
+        <div class="w-full h-[600px]">
+            <div>
+                <p class="text-blue-900 font-bold text-4xl ml-[45px] mt-[50px]">Digital transformation</p>
+                <p class="text-blue-900 ml-[45px] mt-[10px]">A major focus for RSSB going into 2025 is to transform into a member<br> first,<span class="text-yellow-400"> data driven</span>, high performing organization and a big part of that is to<br> complete its <span class="text-yellow-400">shift to digital</span>.</p>
+            </div>
+            <div class="flex mt-[30px] gap-[50px]">
+                <div>
+                    <div class="rounded-full border border-solid h-[70px] w-[70px] ml-[45px] mt-[15px] bg-gray-100 border-none">
+                        <img src="public (6).svg" class="h-[40px] text-blue-900 ml-[15px] mt-[25px]">
+                    </div>
+                    <p class="text-blue-900 font-bold text-[20px] ml-[45px] mt-[20px]">Changing from legacy processes<br> and systems</p>
+                    <p class="text-blue-900 ml-[45px] mt-[10px]">As we enter a new era of technology<br> advances and data-driven business models,<br> we are upgrading our systems and<br> processes to gain in operational efficiency,<br> address technology constraints, meet<br> members experience expectations and<br> support adoption and integration with<br> other systems.</p>
+                </div>
+                <div>
+                    <div class="rounded-full border border-solid h-[70px] w-[70px] ml-[45px] mt-[15px] bg-gray-100 border-none">
+                        <img src="public (7).svg" class="h-[40px] text-blue-900 ml-[15px] mt-[25px]">
+                    </div>
+                    <p class="text-blue-900 font-bold text-[20px] ml-[45px] mt-[20px]">Non-paper based processes</p>
+                    <p class="text-blue-900 ml-[45px] mt-[10px]">We are moving away from the time-taking<br> processes as we process large number of<br> member's claims. Members and partners<br> will be enjoying the benefits such as timely<br> and faster responses and reimbursements<br> for their claims by reducing the time taken<br> for processes to be completed.</p>
+                </div>
+                <div >
+                    <div class="rounded-full border border-solid h-[70px] w-[70px] ml-[45px] mt-[15px] bg-gray-100 border-none">
+                        <img src="public (8).svg" class="h-[40px] text-blue-900 ml-[15px] mt-[25px]">
+                    </div>
+                    <p class="text-blue-900 font-bold text-[20px] ml-[45px] mt-[20px]">Ensure the compliance rate in<br> mandatory contributions</p>
+                    <p class="text-blue-900 ml-[45px] mt-[10px]"> Digital-led compliance for private and<br> public institutions to ensure the compliance<br> and fraud monitoring. Our members will<br> have a seamless and transparent access of<br> their contributions/benefits via intelligent<br> systems and notification ecosystem.</p>
+                </div>
+        </div>
+        <div class="mt-[50px] bg-gray-100 w-full h-[500px] flex">
+            <div class="h-[350px] w-[3px] bg-yellow-400 ml-[45px] top-[10px] mt-[60px]"></div>
+            <div class="mt-[80px]">
+                <p class="ml-[45px]">“We have ambitious plans to transform RSSB, by 2025, into an<br> organisation that is not just fully committed to delivering for our<br> members but that puts members at the heart of all our planning and<br> all our decision-making. Our vision is for RSSB to use all of its power<br> and energy on behalf of our members: to be best-in-class in serving<br> their interests, as a friend and source of help, as a modern, efficient<br> organisation, with user-friendly, enabling technology; as a source of<br> input to Government thinking; as a national and international thought-<br>leader in social policy; as the leading strategic investor in our chosen<br> markets; and as a prudent but ambitious business partner."</p>
+                <div>
+                    <div class="flex">
+                        <div class="rounded-full border border-solid h-[70px] w-[70px] ml-[45px] mt-[15px] bg-black-300 border-none">
+                            <img src="image.png" class="h-[70px] text-blue-900  rounded-full">
+                        </div>
+                        <div class="ml-[10px] mt-[25px]">
+                            <p>Regis RUGEMANSHURO</p>
+                            <p class="text-gray-500">CEO, RSSB</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="items-center flex justify-center w-full h-[200px]">
+            <div class="h-[3px] w-[30px] bg-yellow-400"></div>
+            <p class="uppercase text-blue-900 ml-[10px] font-bold">
+                news & events
+            </p>
+        </div>
+        <div class="flex ml-[65px] h-[400px] mt-[-30px] w-full gap-[30px]">
+            <div>
+                <img src="image1 .png" class="w-[320px] h-[210px] mt-[20px]">
+                <p class="text-sm mt-[10px] text-gray-400">7 months ago</p>
+                <p class="text-blue-900 font-bold text-[16px] mt-[15px]">RSSB launches the first ever<br> digital platform for members</p>
+                <p class="text-gray-500 text-[12px] mt-[15px]">RSSB has launched a digital platform called Imisanzu,<br> allows members to access their social security <br> and services online. The platform is designed to enhance...</p>
+            </div>
+            <div>
+                <img src="image copy 2.png" class="w-[300px] h-[210px] mt-[20px]">
+                <p class="text-sm mt-[10px] text-gray-400">1 year ago</p>
+                <p class="text-blue-900 font-bold text-[16px] mt-[15px]">RSSB unveils new<br> customer service center</p>
+                <p class="text-gray-500 text-[12px] mt-[15px]">RSSB has opened a new customer service center in Kigali to<br> provide better support and assistance to its members. The center<br> offers a range of services, on about RSSB's schemes and benefits.</p>
+            </div>
+            <div>
+                <img src="image copy 3.png" class="w-[300px] h-[210px] mt-[20px]">
+                <p class="text-sm mt-[10px] text-gray-400">2 years ago</p>
+                <p class="text-blue-900 font-bold text-[16px] mt-[15px]">RSSB launches new<br> health insurance scheme</p>
+                <p class="text-gray-500 text-[12px] mt-[15px] ">The National Cyber Security Authority (NCSA)<br> presented Rwanda Social Security Board (RSSB)<br> with Data Controller certification, following the<br> institution’s full compliance with registration</p>
+            </div>
         </div>
     </div>
     
